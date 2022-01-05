@@ -112,8 +112,8 @@ def choose_dir_item(folder, type='folders', what='All'):
         items[count1+1] = item
         extra =''
         if count1+1 < 10: extra = ' '
-        print(f'[{count1+1}]{extra} {items[count1+1].ljust(30," ")}', end = '\t')
-        if (count1+1) %3 == 0: print('')
+        print(f'[{count1+1}]{extra} {items[count1+1].ljust(40," ")}', end = '\t')
+        if (count1+1) %2 == 0: print('')
         count = count1
     print('\n')
     
